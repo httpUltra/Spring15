@@ -13,3 +13,14 @@
 //     });
 //     return evens;
 // }
+
+// Write a function called findMin that accepts a variable number of arguments and returns the smallest argument.
+// Make sure to use the rest and spread operator.
+// function findMini(num, ...rest){
+//     return Math.min(num, ...rest);
+// }
+// // one line, arrow version:
+// const findMinTwo = (num, ...rest) => (Math.min(num, ...rest));
+
+// // Refactored code:
+// const filterOutOdds = (...args) => args.filter(a => a % 2 === 0);
