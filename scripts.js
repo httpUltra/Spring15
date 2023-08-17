@@ -24,3 +24,59 @@
 
 // // Refactored code:
 // const filterOutOdds = (...args) => args.filter(a => a % 2 === 0);
+
+// // Write a function called mergeObjections that accepts two objects and returns a new object
+// // which contains all the keys and values of the first object and second object
+// let fakeObj = [
+//     {a:1},
+//     {b:2}
+// ];
+// let fakeObj2 = [
+//     {c: 3},
+//     {d: 4}
+// ];
+// const mergeObjects = (obj1, obj2) => ({...obj1, ...obj2});
+
+// // doubelAndReturnArgs
+// const doubleAndReturn = (array, ...args) => [...array, ...args.map(val => val * 2)];
+
+// const removeRandom = (...items) => {
+//     const randomIndex = Math.floor(Math.random() * items.length);
+//     items.splice(randomIndex, 1);
+//     return items;
+//   };
+
+// const testar = [1, 2, 3];
+// const testar2 = [4, 5, 6];
+// const extend = (array1, array2) => [...array1, ...array2];
+
+// const fakeject = 
+//     {age: 15,
+//     height: 4,
+//     color: 'blue'};
+// const addKeyVal = (obj, key, val) => {
+//     return {...obj, [key]: val};
+// };
+
+// const removekey = (obj, key) => {
+//     const newObj = { ...obj };
+//     delete newObj[key];
+//     return newObj;
+// }
+
+
+// const objA = {
+//     age: 1,
+//     height: 5,
+// };
+// const objB = {
+//     color: 'blue',
+//     hatred: 'yeah'
+// };
+// const combine = (obj1, obj2) => [{...obj1, ...obj2}];
+
+// const modObj = (obj, key, val) => {
+//     let newObj = { ...obj }
+//     newObj[key] = val;
+//     return newObj;
+//  };
